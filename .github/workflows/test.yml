@@ -77,9 +77,11 @@ jobs:
         run: cargo llvm-cov --locked --all-features --lcov --output-path lcov.info
       - name: Record Rust version
         run: echo "RUST=$(rustc --version)" >> "$GITHUB_ENV"
-      - name: Upload to codecov.io
+      - name: Upload coverage reports to Codecov
         uses: codecov/codecov-action@v5
         with:
           fail_ci_if_error: true
           token: ${{ secrets.CODECOV_TOKEN }}
+          slug: savente93/remarkable
           env_vars: OS,RUST
+        
