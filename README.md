@@ -1,7 +1,6 @@
 # remarkable
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![codecov](https://codecov.io/gh/savente93/remarkable/branch/main/graph/badge.svg)](https://codecov.io/gh/savente93/remarkable)
 [![crates.io](https://img.shields.io/crates/v/remarkable)](https://crates.io/crates/remarkable)
 [![Docs.rs](https://docs.rs/remarkable/badge.svg)](https://docs.rs/remarkable)
 
